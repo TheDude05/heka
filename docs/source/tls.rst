@@ -84,18 +84,16 @@ TLS configuration settings
 	Specifies the mininum acceptable SSL/TLS version. Must
 	be one of the following values:
 	
-	- SSL30
 	- TLS10
 	- TLS11
 	- TLS12
 
-	Defaults to SSL30.
+	Defaults to TLS10.
 
 - max_version (string, both):
 	Specifies the maximum acceptable SSL/TLS version. Must
 	be one of the following values:
 
-	- SSL30
 	- TLS10
 	- TLS11
 	- TLS12

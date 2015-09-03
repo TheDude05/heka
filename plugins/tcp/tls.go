@@ -39,7 +39,7 @@ var ciphers map[string]uint16 = map[string]uint16{
 }
 
 var tlsVersions map[string]uint16 = map[string]uint16{
-	"SSL30": tls.VersionSSL30,
+	//"SSL30": tls.VersionSSL30,
 	"TLS10": tls.VersionTLS10,
 	"TLS11": tls.VersionTLS11,
 	"TLS12": tls.VersionTLS12,
